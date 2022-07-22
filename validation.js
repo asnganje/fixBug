@@ -1,5 +1,5 @@
 const userRegex = /[A-Z]/;
-const thisForm = document.getElementById('dataForm');
+const thisForm = document.getElementByClass('dataForm');
 thisForm.addEventListener('submit', (e) => {
   const { email } = thisForm.elements;
   const mailAd = email.value;
